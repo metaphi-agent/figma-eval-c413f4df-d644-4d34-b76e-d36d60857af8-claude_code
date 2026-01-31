@@ -1,0 +1,86 @@
+{
+  "colors": {
+    "primary": {
+      "blue": "#4776E6",
+      "purple": "#8E54E9",
+      "cyan": "#47C5FF",
+      "orange": "#F9D423",
+      "pink": "#EC008C",
+      "red": "#FC6767",
+      "teal": "#00D2FF"
+    },
+    "coldGrey": {
+      "5": "#F5F6F8",
+      "10": "#EBEDF2",
+      "20": "#D6D8DE",
+      "30": "#C1C4CC",
+      "40": "#ACB0BA",
+      "50": "#979CA8",
+      "60": "#838896",
+      "70": "#6E7484",
+      "80": "#5A6072",
+      "90": "#454C60",
+      "white": "#FFFFFF"
+    },
+    "gradients": {
+      "purple": "linear-gradient(90deg, #4776E6 0%, #8E54E9 100%)",
+      "blue": "linear-gradient(90deg, #00D2FF 0%, #3A7BD5 100%)",
+      "orange": "linear-gradient(90deg, #E65C00 0%, #F9D423 100%)",
+      "pink": "linear-gradient(90deg, #EC008C 0%, #FC6767 100%)",
+      "teal": "linear-gradient(90deg, #00C6FF 0%, #0072FF 100%)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Roboto, sans-serif"
+    },
+    "fontWeight": {
+      "light": 300,
+      "regular": 400,
+      "medium": 500,
+      "bold": 700
+    },
+    "fontSize": {
+      "xs": "12px",
+      "sm": "14px",
+      "base": "16px",
+      "lg": "18px",
+      "xl": "20px",
+      "2xl": "24px",
+      "3xl": "32px",
+      "4xl": "40px",
+      "5xl": "52px",
+      "6xl": "72px"
+    }
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "16px",
+    "md": "24px",
+    "lg": "32px",
+    "xl": "40px",
+    "2xl": "64px"
+  },
+  "shadows": {
+    "100": "0 1px 2px rgba(0,0,0,0.05)",
+    "200": "0 2px 4px rgba(0,0,0,0.1)",
+    "300": "0 4px 8px rgba(0,0,0,0.1)",
+    "400": "0 8px 16px rgba(0,0,0,0.1)",
+    "500": "0 12px 24px rgba(0,0,0,0.1)",
+    "600": "0 16px 32px rgba(0,0,0,0.1)",
+    "700": "0 20px 40px rgba(0,0,0,0.1)",
+    "800": "0 24px 48px rgba(0,0,0,0.15)"
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "full": "9999px"
+  },
+  "breakpoints": {
+    "desktop": "1440px",
+    "tablet": "834px",
+    "mobile": "375px"
+  }
+}

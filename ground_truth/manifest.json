@@ -1,0 +1,17 @@
+{
+  "figma_file_key": "Xp265ZvpH5p8xlI33C0bLQ",
+  "total_frames": 98,
+  "selected_frames": 10,
+  "frames": [
+    {"name": "Header 1", "node_id": "28:347", "gt_image": "Header-1.png", "target_route": "/header-1", "style": "dark-portfolio"},
+    {"name": "Header 2", "node_id": "28:260", "gt_image": "Header-2.png", "target_route": "/header-2", "style": "minimal-illustration"},
+    {"name": "Header 3", "node_id": "28:261", "gt_image": "Header-3.png", "target_route": "/header-3", "style": "bright-3d"},
+    {"name": "Header 4", "node_id": "28:262", "gt_image": "Header-4.png", "target_route": "/header-4", "style": "gradient-typography"},
+    {"name": "Header 7", "node_id": "28:265", "gt_image": "Header-7.png", "target_route": "/header-7", "style": "business-isometric"},
+    {"name": "Header 8", "node_id": "28:266", "gt_image": "Header-8.png", "target_route": "/header-8", "style": "dark-automotive"},
+    {"name": "Header 10", "node_id": "28:268", "gt_image": "Header-10.png", "target_route": "/header-10", "style": "fintech-3d"},
+    {"name": "Header 14", "node_id": "74:394", "gt_image": "Header-14.png", "target_route": "/header-14", "style": "dark-lighting"},
+    {"name": "Header 19", "node_id": "28:323", "gt_image": "Header-19.png", "target_route": "/header-19", "style": "blue-saas"},
+    {"name": "Header 21", "node_id": "28:288", "gt_image": "Header-21.png", "target_route": "/header-21", "style": "nature-shop"}
+  ]
+}

@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* Design tokens extracted from Figma */
+@theme {
+  --font-sans: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Primary colors */
+  --color-primary-blue: #4776E6;
+  --color-primary-purple: #8E54E9;
+  --color-primary-cyan: #47C5FF;
+  --color-primary-orange: #F9D423;
+  --color-primary-pink: #EC008C;
+  --color-primary-red: #FC6767;
+  --color-primary-teal: #00D2FF;
+
+  /* Cold Grey palette */
+  --color-grey-5: #F5F6F8;
+  --color-grey-10: #EBEDF2;
+  --color-grey-20: #D6D8DE;
+  --color-grey-30: #C1C4CC;
+  --color-grey-40: #ACB0BA;
+  --color-grey-50: #979CA8;
+  --color-grey-60: #838896;
+  --color-grey-70: #6E7484;
+  --color-grey-80: #5A6072;
+  --color-grey-90: #454C60;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/roboto/v32/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format('woff2');
+}
+
+body {
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom gradient backgrounds */
+.gradient-purple {
+  background: linear-gradient(90deg, #4776E6 0%, #8E54E9 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(90deg, #00D2FF 0%, #3A7BD5 100%);
+}
+
+.gradient-orange {
+  background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+}
+
+.gradient-pink {
+  background: linear-gradient(90deg, #EC008C 0%, #FC6767 100%);
+}
+
+.gradient-teal {
+  background: linear-gradient(90deg, #00C6FF 0%, #0072FF 100%);
+}
+
+.gradient-cyan-blue {
+  background: linear-gradient(90deg, #47C5FF 0%, #4776E6 100%);
+}
+
+.gradient-yellow-green {
+  background: linear-gradient(135deg, #F5F6F0 0%, #E8F5E9 100%);
+}
