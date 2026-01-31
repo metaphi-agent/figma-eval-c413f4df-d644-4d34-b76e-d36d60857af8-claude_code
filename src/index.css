@@ -1,24 +1,52 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-  body {
-    @apply bg-white text-gray-900;
-    font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+@theme {
+  /* Colors from Figma design system */
+  --color-blue-dark: #1e3a8a;
+  --color-blue-light: #60a5fa;
+  --color-orange-light: #fb923c;
+  --color-orange-dark: #c2410c;
+  --color-teal-light: #5eead4;
+  --color-green-dark: #15803d;
+  --color-pink-dark: #be123c;
+  --color-purple-dark: #6b21a8;
+  --color-indigo-dark: #4338ca;
+  --color-yellow-50: #fefce8;
 
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-bold;
-  }
+  /* Cold Grey scale */
+  --color-grey-5: #f9fafb;
+  --color-grey-10: #f3f4f6;
+  --color-grey-20: #e5e7eb;
+  --color-grey-30: #d1d5db;
+  --color-grey-40: #9ca3af;
+  --color-grey-50: #6b7280;
+  --color-grey-60: #4b5563;
+  --color-grey-70: #374151;
+  --color-grey-80: #1f2937;
+  --color-grey-90: #111827;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+  color: #111827;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
 }
