@@ -30,5 +30,9 @@
     "preview_url_at": "2026-01-31T07:50:10.777030+00:00"
   },
   "notes": [],
-  "updated_at": "2026-01-31T07:50:10.777030+00:00"
+  "updated_at": "2026-02-08T11:01:26.018969+00:00",
+  "deployed_url": "https://storage.googleapis.com/metaphi-agent/figma-claude-opus-agent/c413f4df-d644-4d34-b76e-d36d60857af8/index.html",
+  "completed_steps": [
+    "Step 7: Deploy & Push"
+  ]
 }
